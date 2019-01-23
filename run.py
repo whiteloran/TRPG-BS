@@ -7,5 +7,5 @@ def create_db(app):
     db.create_all()
 
 if __name__ == '__main__':
-    application = create_app('develop')
-    application.run(host="0.0.0.0")
+    myapp = create_app('develop')
+    myapp.run(host="0.0.0.0")
